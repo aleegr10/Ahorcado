@@ -1,3 +1,4 @@
 # Ahorcado
 Juego ahorcado
-echo ahorcado.html
+
+./Juego del ahorcado/ahorcado.html
