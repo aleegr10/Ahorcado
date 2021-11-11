@@ -1,3 +1,3 @@
 # Ahorcado
 Juego ahorcado
-ahorcado.html
+echo ahorcado.html
