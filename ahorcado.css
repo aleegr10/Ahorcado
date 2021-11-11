@@ -6,6 +6,8 @@ button{
 
 table{
     width: 10px;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 img{
@@ -13,13 +15,14 @@ img{
     left: 50px;
     height: 300px;
     width: 300px;
+    grid-row: 2;
 }
 
 button#cambia{
     width: 80px;
     height: 40px;
     margin-left: 4px;
-    grid-row: 4;
+    grid-row: 3;
 }
 
 input#texto{
@@ -29,5 +32,9 @@ input#texto{
 body{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    text-align: center;
+}
+
+p#parrafo{
+    grid-column: auto/span 2;
+    margin-left: 50px;
 }
