@@ -10,11 +10,11 @@
     <script src="./diccionario.js"></script>
     <script>
         const palabras = diccionario;
-        console.log(palabras);
+        //console.log(palabras);
         let numero = Math.floor(Math.random() * palabras.length);
-        console.log(numero);
+        //console.log(numero);
         let palabra = palabras[numero].palabra_sin_tilde;
-        console.log(palabra);
+        //console.log(palabra);
         palabra = palabra.replace(/á/g,'a').replace(/é/g,'e').replace(/í/g,'i').
                     replace(/ó/g,'o').replace(/ú|ü/g,'u');
         palabra = palabra.toLowerCase();
